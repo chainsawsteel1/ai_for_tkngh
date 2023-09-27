@@ -135,8 +135,8 @@ export default class Friend {
 		if (this.doc.love == null) this.doc.love = 0;
 		this.doc.love -= amount;
 
-		// 最低 -
-		if (this.doc.love < -30) this.doc.love = -30;
+		// 最低 -9999
+		if (this.doc.love < -9999) this.doc.love = -9999;
 
 		// 親愛度マイナスなら名前を忘れる
 		if (this.doc.love < 0) {

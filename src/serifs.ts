@@ -372,12 +372,12 @@ export default {
 	},
 
 	maze: {
-		post: '今日の迷路です！ #AiMaze',
+		post: '今日の迷路です！ #TKNGHMaze',
 		foryou: '描きました！'
 	},
 
 	chart: {
-		post: 'インスタンスの投稿数です！',
+		post: 'インスタンスの投稿数です！ #TKNGHActivity',
 		foryou: '描きました！'
 	},
 

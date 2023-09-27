@@ -29,6 +29,7 @@ import ServerModule from './modules/server';
 import FollowModule from './modules/follow';
 import ValentineModule from './modules/valentine';
 import MazeModule from './modules/maze';
+import NoteModule from './modules/note';
 import ChartModule from './modules/chart';
 import SleepReportModule from './modules/sleep-report';
 import NotingModule from './modules/noting';
@@ -83,6 +84,7 @@ promiseRetry(retry => {
 		new ValentineModule(),
 		new KeywordModule(),
 		new MazeModule(),
+		new NoteModule(),
 		new ChartModule(),
 		new SleepReportModule(),
 		new NotingModule(),
