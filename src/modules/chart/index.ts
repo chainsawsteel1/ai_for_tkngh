@@ -55,7 +55,7 @@ export default class extends Module {
 			});
 
 			chart = {
-				title: `@${params.user.username}さんの投稿数`,
+				title: `@${params.user.username}先生の投稿数`,
 				datasets: [{
 					data: data.diffs.normal
 				}, {
@@ -72,7 +72,7 @@ export default class extends Module {
 			});
 
 			chart = {
-				title: `@${params.user.username}さんのフォロワー数`,
+				title: `@${params.user.username}先生のフォロワー数`,
 				datasets: [{
 					data: data.local.followers.total
 				}, {

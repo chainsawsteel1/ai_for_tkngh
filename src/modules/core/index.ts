@@ -4,7 +4,7 @@ import Message from '@/message';
 import serifs from '@/serifs';
 import { safeForInterpolate } from '@/utils/safe-for-interpolate';
 
-const titles = ['さん', 'くん', '君', 'ちゃん', '様', '先生'];
+const titles = ['先生'];
 
 export default class extends Module {
 	public readonly name = 'core';

@@ -201,6 +201,7 @@ export const itemPrefixes = [
 	'高圧',
 	'異常',
 	'粗挽き',
+	'TKNGH向けの',
 ];
 
 export const items = [
@@ -447,6 +448,9 @@ export const items = [
 	'繝九Λ縺ｮ縺ｿ縺晄ｱ',
 	'スーパーカミオカンデ',
 	'デースケドガー',
+	'アロナ',
+	'わかめうどん',
+	'Yusuke',
 ];
 
 export const and = [
