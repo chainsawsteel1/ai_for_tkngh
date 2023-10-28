@@ -202,6 +202,8 @@ export const itemPrefixes = [
 	'異常',
 	'粗挽き',
 	'TKNGH向けの',
+	'非電化の',
+	'佐賀県の',
 ];
 
 export const items = [
@@ -451,6 +453,9 @@ export const items = [
 	'アロナ',
 	'わかめうどん',
 	'Yusuke',
+	'唐津市',
+	'唐津ネットワークサービス',
+	'高菜ごはん'
 ];
 
 export const and = [
@@ -461,6 +466,7 @@ export const and = [
 	'を虐げる',
 	'を侍らせた',
 	'が上に乗った',
+	'の上位互換な',
 ];
 
 export function genItem(seedOrRng?: (() => number) | string | number) {

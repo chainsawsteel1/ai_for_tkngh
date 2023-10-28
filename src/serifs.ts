@@ -377,7 +377,7 @@ export default {
 	},
 
 	chart: {
-		post: 'インスタンスの投稿数です！ #TKNGHActivity',
+		post: 'サーバーの投稿数です！ #TKNGHActivity',
 		foryou: '描きました！'
 	},
 
